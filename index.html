@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Timer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <form id="timerForm">
+      <h1>Set your timer</h1>
+      <h2 class="counter">00:00</h2>
+      <label for="seconds">Enter amount of seconds</label>
+      <input type="number" id="seconds" name="seconds" step="1" min="0" max="60">
+      <label for="minutes">Enter amount of minutes</label>
+      <input type="number" id="minutes" name="minutes" step="1" min="0" max="60">
+      <label for="hours">Enter amount of hours</label>
+      <input type="number" id="hours" name="hours" step="1" min="0" max="60">
+      <button id="setTimerButton">Set timer</button>
+      <button id="pauseButton" type="button">Pause/Resume Timer</button>
+      <button id="resetButton" type="button">Reset Timer</button>
+      <script src="main.js"></script>
+    </form>
+  </div>
+</body>
+</html>
